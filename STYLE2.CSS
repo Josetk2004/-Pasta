@@ -1,0 +1,147 @@
+
+h1 {
+    
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.subtitle p{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.imagetext{
+    text-align: center;
+}
+.imagetext2{
+  text-align: center;
+}
+.imagetext3{
+  text-align: center;
+}
+.imagetext4{
+  text-align: center;
+}
+.imagetext5{
+  text-align: center;
+}
+.imagetext6{
+  text-align: center;
+}
+.img1{
+
+    width: 500px;
+    display: flex;
+  width: 500px;
+ align-items: baseline;
+ flex-direction: row;
+}
+.img2{
+  width: 500px;
+  display: flex;
+  width: 500px;
+ align-items: baseline;
+}.img3{
+  width: 500px;
+  display: flex;
+  width: 500px;
+ align-items: baseline;
+ flex-direction: row;
+}.img4{
+  width: 500px;
+  display: flex;
+  width: 500px;
+ align-items: baseline;
+ flex-direction: row;
+}.img5{
+  width: 500px;
+  display: flex;
+  width: 500px;
+ align-items: baseline;
+ flex-direction: row;
+
+}.img6{
+  display: flex;
+  width: 500px;
+ align-items: baseline;
+ flex-direction: row;
+}
+.button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 22px;
+    width: 100px;
+    margin: 0 auto;
+     
+}
+
+.button:hover{
+    background-color: lightblue;
+    color: cadetblue;
+}
+
+.textbox{
+  display: flex;
+  margin: 15px;
+  border-top: 1px;
+  border-bottom: 3px;
+  width: 200px;
+  align-items: center;
+  text-align: center;
+}
+.textbox2{
+    display: flex;
+    margin: 15px;
+    border-top: 1px;
+    border-bottom: 3px;;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+  }
+  body{
+    background: url("https://wallpapers.com/images/featured/green-background-ivfksvptao7sdhrg.jpg") fixed center,top;
+    background-color: greenyellow;
+}
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 720px;
+}
+.content {
+  color: #646464;
+  display: flex;
+  padding: 0 10px;
+  margin-top: 36px;
+  width: 100%;
+}
+html {
+  color: #646464;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size: 18px;
+}
+@media screen and (min-width:480px) {
+  
+}
+@media screen and (max-width:768px){
+  .content{
+    display: block;
+  }
+
+}
+@media screen and (min-width:480px) {
+  
+}
+@media screen and (max-width: 768px) {
+  body{
+    color:aquamarine
+  }
+}
